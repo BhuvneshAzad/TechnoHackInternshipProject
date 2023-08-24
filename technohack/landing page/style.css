@@ -1,0 +1,250 @@
+body {
+  
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to top,#021335,black,black);
+    color: #fff;
+  }
+body, h1, h2, h3, ul, li {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  z-index: 1000; 
+}
+
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 15px;
+  padding: 10px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.nav-links a:hover {
+  color: #00c8ff;
+  
+}
+
+.content {
+  padding-top: 60px;
+}
+
+
+
+
+
+  .hero {
+    background-image: url('back1.jpg');
+    background-size:cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 250px 0;
+    transition: 3s;
+  }
+  .hero p {
+    text-shadow: 1px 1px rgb(0, 0, 0);
+  }
+  
+  .hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffc400;
+    color: #000;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #ffdb75;
+  }
+  
+  #countdown {
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: #ff0400;
+    margin-left: 40%;
+    margin-right: 40%;
+  }
+  
+  .about {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .about h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .bold{
+    color: #00c8ff;
+  }
+  .bold1{
+    color: #ffc400;
+  }
+  
+  .blog {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    text-align: center;
+  
+  }
+  #image1{
+    width: 500px;
+    border-radius: 20px;
+  }
+  
+  .blog h3 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .blog-post {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    cursor: pointer;
+    display: flex;
+  }
+  
+  .blog-post .step {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 60px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    margin-right: 25px;
+    transition: 0.5s;
+  }
+  
+  .blog-post:hover .step {
+    background-color: #00c8ff;
+    
+  }
+  
+  .content {
+      display: none;
+      text-align: left;
+      width: 100%;
+     
+      transition: opacity 0.5s ease-in-out;
+    }
+    
+    .blog-post:hover .content {
+        display: block;
+        margin-top: 20px;
+      
+    }
+    
+    .blog-post img {
+        max-width: 150px;
+        border-radius: 8px;
+    }
+    .blog-post img:hover {
+        max-width: 190px;
+        border-radius: 8px;
+    }
+    
+    .content h4 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    
+    .content p {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    
+    .blog1{
+     padding-left: 150px;
+      display: flex;
+    }
+    
+ 
+       
+  
+    /* Media query for responsiveness */
+    @media (max-width: 768px) {
+        .blog-post {
+            flex-direction: column;
+        }
+        
+        .blog-post img {
+            margin: 0 auto 20px;
+        }
+    }
+
+    .contact-info1 {
+      background-color: #000000;
+      justify-content: center;
+      padding: 20px;
+      margin: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      font-family: Arial, sans-serif;
+    }
+    
+    /* Style for the contact heading */
+    .contact-heading1 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color:#0099ff
+    }
+    
+    /* Style for the contact details */
+    .contact-details1 {
+      font-size: 16px;
+    }
+    
+    /* Style for the email and phone links */
+    .contact-details1 a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    
+    .contact-details1 a:hover {
+      text-decoration: underline;
+    }
+    
+    footer div div{
+      text-align: center;
+      
+    }
+    footer p{
+      text-align: center;
+    }
+    
